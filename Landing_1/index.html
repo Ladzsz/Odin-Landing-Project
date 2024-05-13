@@ -3,29 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title of Your Page</title>
+    <title>Landing 1</title>
     <link rel="stylesheet" href="styles.css">
     
 </head>
 <body>
 
+    <!--below is the header containing the start of the page with images and links
+    to rest of the page.-->
     <header>
-        <h1>Welcome to Your Website</h1>
-        <!-- Add navigation links, logo, etc. -->
+        <div id="Headerh1">
+            <h1>This Website is Awesome</h1>
+        </div>
+        
+        <!--header paragraph div-->
+        <div id="HeaderP">
+            <p>My super awesome website!</p>
+        </div>
+        <!--Sign up button-->
+        <div id="HeaderSignup">
+            <p>Sign up</p>
+        </div>
+        <!--logo image div-->
+        <div id="logoimg">
+            <img src="logo.jpeg" alt="Logo">
+        </div>
+        <!--cool cat image div-->
+        <div id="coolcatimg">
+            <img src="coolcat.jpeg" alt="cool cat image">
+        </div>
+        
+        <!--Links below to rest of page-->
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+        
     </header>
 
     <main>
-        <section>
-            <h2>Section 1</h2>
-            <p>This is the content of section 1.</p>
+        <section id="section1">
+            <div id="section1_H2">
+                <h2>Here are some more cool cats!</h2>
+            </div>
+            <!--below is the image container for the four images-->
+            <div class="image-container">
+                <div class="image-wrapper">
+                    <img src="coolercat.jpeg" alt="Cooler Cat">
+                    <div class="text">Cooler Cat</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="coolestcat.jpeg" alt="Coolest Cat">
+                    <div class="text">Coolest Cat</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="thecoolcat.jpeg" alt="The Cool Cat">
+                    <div class="text">The Cool Cat</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="noshadecat.jpeg" alt="No Shade Cat">
+                    <div class="text">No Shade Cat</div>
+                </div>
+            </div>
+            
+            <!-- Add content for section 1 -->
         </section>
+        <!--Below is the quote and H for the quote part of the webpage as well as
+        the made up person who said it.-->
+        <section id="section2">
+            <div id="Section2_H2">
+                <h2>A Totally not made up quote!</h2>
+            </div>
+            <div id="quoteP">
+                <p>Cool cats always wear shades. However, some say if<br> 
+                    if a cat is very cool they will not need shades.
+                </p>
+            </div>
+            <div id="guy_who_said_it">
+                <p>-Mr. CoolCat Man</p>
 
-        <section>
-            <h2>Section 2</h2>
-            <p>This is the content of section 2.</p>
+            </div>
+
+            <!-- Add content for section 2 -->
         </section>
-
-        <!-- Add more sections as needed -->
+    
+        <section id="section3">
+            <h2>Section 3</h2>
+            <!-- Add content for section 3 -->
+        </section>
     </main>
 
     <footer>
