@@ -1,29 +1,59 @@
 /*below is me making all text the desired font*/
+html {
+    background-color: black;
+}
+
 
 * {
     font-family: 'Roboto', sans-serif;
 }
-
+/*---------------------------------------------------------------------------------------*/
 header {
     background-color: pink;
-    display: flex;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    
 }
 
 .logoLinksFlex {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 200px;
 
 }
 
-nav ul {
-    display: flex; 
-}
+
+
+
 
 .WordsinHeaderFlex {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    margin-left: 100px;
+}
+
+#Headerh1 {
+    margin-right: 360px; 
+    color: aliceblue;
+}
+
+.coolcatimg {
+    display: flex;
+    align-items: center; 
+}
+
+.signup {
+    font-weight: bold;
+    color: white;
+    background-color: lightblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-left: 120px;
+    border: 2px solid lightblue;
+    border-radius: 10%;
+    
+    
 }
 
 
@@ -33,21 +63,9 @@ nav ul {
     
 }
 
-#Headerh1 {
-    
-    color: aliceblue;
-    
-    
-    
-    
-}
 
-#HeaderSignup {
-    color: aliceblue;
-    font-weight: bold;
-    
-    
-    
+nav ul {
+    display: flex; 
 }
 
 a {
@@ -69,6 +87,10 @@ ul {
 
 /*-------------------------------------------------------------------------------------*/
 
+#section1 {
+    background-color: aliceblue;
+    padding-top: 40px;
+}
 
 #section1_H2 {
     text-align: center; /* Center the heading */
@@ -85,11 +107,18 @@ ul {
     margin: 10px; 
     text-align: center; 
 }
+
+.cat {
+    height: 190px;
+  width: 180px;
+}
 /*------------------------------------------------------------------------------------*/
 
 
 #section2 {
     background-color: lightslategray;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #Section2_H2 {
@@ -110,7 +139,8 @@ ul {
 
 
 #section3 {
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: lightblue;
     display: flex;
     align-items: center;
@@ -129,5 +159,15 @@ ul {
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:  darkcyan;
+    
 }
 	
